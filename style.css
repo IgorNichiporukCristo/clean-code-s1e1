@@ -127,11 +127,11 @@ button{
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.todo__checkbox{
   margin: 0 10px;
 }
 
-li > label {
+.todo__label__task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -142,17 +142,17 @@ li > label {
   width: 226px;
 }
 
-li > button.delete:hover {
+.todo__button__delete:hover {
   color: #cf2323;
 }
 
-.delete img {
+.todo__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.todo__img:hover {
   transform: rotateZ(0);
 }
 
